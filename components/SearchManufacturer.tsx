@@ -10,7 +10,6 @@ const SearchManufacturer = ({
   manufacturer,
   setManufacturer,
 }: SearchManufacturer) => {
-  const [selectedCars, setSelectedCars] = useState(manufacturers[0]);
   const [query, setQuery] = useState('');
 
   const filteredManufacturers =
