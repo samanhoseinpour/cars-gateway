@@ -18,9 +18,9 @@ This is a web application built with React and Next.js that allows users to sear
 
 - Next.js: A React framework that provides server-side rendering, static site generation, and other useful features for building modern web applications.
 
-TailwindCSS: A CSS architecture that allows for modular and reusable styles.
+- TailwindCSS: A CSS architecture that allows for modular and reusable styles.
 
-REST API: The website retrieves car data from a REST API, which is used to populate the catalog and provide detailed information about each car.
+- REST API: The website retrieves car data from a REST API, which is used to populate the catalog and provide detailed information about each car.
 
 ## Getting Started
 
