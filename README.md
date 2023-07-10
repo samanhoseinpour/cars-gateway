@@ -1,34 +1,35 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## Cars Gateway Website
+
+This is a web application built with React and Next.js that allows users to search for cars and browse through a car catalog. The website features a modern and responsive design, with a user-friendly interface that provides an easy and enjoyable browsing experience.
+
+## Features
+
+- Car Search: Users can search for cars using a search bar that filters the catalog based on the car's make, model, year, and other relevant criteria.
+
+- Car Catalog: The website includes a catalog of cars, which users can browse through and filter by different attributes such as price, mileage, and fuel type.
+
+- Car Details: Each car in the catalog has a dedicated page that displays detailed information about the car, including its specifications, features, and photos.
+
+- Responsive Design: The website is designed to be responsive and optimized for different screen sizes, ensuring that users can access and use the website seamlessly on desktop and mobile devices.
+
+## Technologies Used
+
+- React: A popular JavaScript library for building user interfaces.
+
+- Next.js: A React framework that provides server-side rendering, static site generation, and other useful features for building modern web applications.
+
+TailwindCSS: A CSS architecture that allows for modular and reusable styles.
+
+REST API: The website retrieves car data from a REST API, which is used to populate the catalog and provide detailed information about each car.
 
 ## Getting Started
 
-First, run the development server:
+To run the website locally, follow these steps:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+- Clone the repository to your local machine.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- Install the dependencies using npm install.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- Run the development server using npm run dev.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- Open your browser and navigate to http://localhost:3000.
